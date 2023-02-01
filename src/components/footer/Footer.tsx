@@ -8,7 +8,7 @@ export const Footer = () => {
                     <div className="col text-center text-white">
                         <div className="row">
                             <div>
-                                <img id="logo-java" src="./src/assets/react.svg" alt=""
+                                <img id="logo-java" src="../../assets/react.svg" alt=""
                                     style={{height: '50px', marginTop: '10px', marginBottom: '10px'}}/>
                             </div>
                             <div className="col align-self-center">
@@ -19,7 +19,6 @@ export const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
