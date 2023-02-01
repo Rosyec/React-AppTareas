@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../../assets/react.svg';
 
 export const Footer = () => {
     return (
@@ -8,7 +9,7 @@ export const Footer = () => {
                     <div className="col text-center text-white">
                         <div className="row">
                             <div>
-                                <img id="logo-java" src="../../assets/react.svg" alt=""
+                                <img id="logo-java" src={ logo } alt=""
                                     style={{height: '50px', marginTop: '10px', marginBottom: '10px'}}/>
                             </div>
                             <div className="col align-self-center">
